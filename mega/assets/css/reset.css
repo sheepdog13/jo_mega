@@ -8,7 +8,7 @@ a {color: #222; text-decoration: none;}
 a:hover {color: #390;}
 
 /* 폰트 초기화 */
-body, input, textarea, select, button, table {  font-family:'Noto Sans KR', AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif; 
+body, input, textarea, select, button, table{  font-family:'Noto Sans KR', AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif; 
     color: #222; font-size: 13px; line-height: 1.5;}
 
 /* 폰트 스타일 초기화 */
@@ -52,3 +52,12 @@ img, video {width: 100%;}
 .mt40 {margin-top: 40px !important;}
 .mt45 {margin-top: 45px !important;}
 .mt50 {margin-top: 50px !important;}
+
+/* 아이콘 이미지 최적화 작업 */
+.icon {background-image: url(../img/icon.png);}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min-device-pixel-ratio: 1.5),
+       only screen and (min-resolution: 1.5dppx){
+            .icon {background-image: url(../img/icon@2.png); background-size: 500px;}
+       }
